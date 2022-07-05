@@ -30,16 +30,17 @@ body {
 }
 
 #container {
-  border: 0px solid blue;
-  background-color: rgba(90,60,195,0.5);
-  height: auto;
+  border: 1px solid rgba(93, 74, 163, 0.5);
+  background-color: rgba(93, 74, 163, 0.5);
   margin-bottom:0;
+  height: 100%;
 }
 
 input, select {
   border: 1px solid black;
   border-radius: 5px;
-  padding: 7px 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   font-size: 17px;
   width: 100%;
   font-family: inherit;
@@ -73,9 +74,11 @@ main {
   cursor: pointer;
 }
 
+
 #name, #email, #number {
  margin-top: 10px; 
  margin-bottom: 30px; 
+
 }
 
 label {
